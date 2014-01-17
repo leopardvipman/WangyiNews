@@ -1,0 +1,13 @@
+//
+//  lbViewController.h
+//  WangyiNews
+//
+//  Created by lvpad on 14-1-17.
+//  Copyright (c) 2014年 lvpan. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface lbViewController : UIViewController
+
+@end

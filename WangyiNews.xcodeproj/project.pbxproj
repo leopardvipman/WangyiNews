@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AFE48E188932600037353B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFE48D188932600037353B /* Foundation.framework */; };
+		80AFE490188932600037353B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFE48F188932600037353B /* CoreGraphics.framework */; };
+		80AFE492188932600037353B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFE491188932600037353B /* UIKit.framework */; };
+		80AFE498188932600037353B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80AFE496188932600037353B /* InfoPlist.strings */; };
+		80AFE49A188932600037353B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AFE499188932600037353B /* main.m */; };
+		80AFE49E188932600037353B /* lbAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AFE49D188932600037353B /* lbAppDelegate.m */; };
+		80AFE4A1188932600037353B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AFE49F188932600037353B /* Main.storyboard */; };
+		80AFE4A4188932600037353B /* lbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AFE4A3188932600037353B /* lbViewController.m */; };
+		80AFE4A6188932600037353B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AFE4A5188932600037353B /* Images.xcassets */; };
+		80AFE4AD188932600037353B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFE4AC188932600037353B /* XCTest.framework */; };
+		80AFE4AE188932600037353B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFE48D188932600037353B /* Foundation.framework */; };
+		80AFE4AF188932600037353B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AFE491188932600037353B /* UIKit.framework */; };
+		80AFE4B7188932600037353B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80AFE4B5188932600037353B /* InfoPlist.strings */; };
+		80AFE4B9188932600037353B /* WangyiNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AFE4B8188932600037353B /* WangyiNewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80AFE4B0188932600037353B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AFE482188932600037353B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AFE489188932600037353B;
+			remoteInfo = WangyiNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80AFE48A188932600037353B /* WangyiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangyiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AFE48D188932600037353B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80AFE48F188932600037353B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80AFE491188932600037353B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80AFE495188932600037353B /* WangyiNews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WangyiNews-Info.plist"; sourceTree = "<group>"; };
+		80AFE497188932600037353B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80AFE499188932600037353B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AFE49B188932600037353B /* WangyiNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WangyiNews-Prefix.pch"; sourceTree = "<group>"; };
+		80AFE49C188932600037353B /* lbAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lbAppDelegate.h; sourceTree = "<group>"; };
+		80AFE49D188932600037353B /* lbAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lbAppDelegate.m; sourceTree = "<group>"; };
+		80AFE4A0188932600037353B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AFE4A2188932600037353B /* lbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lbViewController.h; sourceTree = "<group>"; };
+		80AFE4A3188932600037353B /* lbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lbViewController.m; sourceTree = "<group>"; };
+		80AFE4A5188932600037353B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80AFE4AB188932600037353B /* WangyiNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangyiNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AFE4AC188932600037353B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		80AFE4B4188932600037353B /* WangyiNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WangyiNewsTests-Info.plist"; sourceTree = "<group>"; };
+		80AFE4B6188932600037353B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80AFE4B8188932600037353B /* WangyiNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangyiNewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AFE487188932600037353B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFE490188932600037353B /* CoreGraphics.framework in Frameworks */,
+				80AFE492188932600037353B /* UIKit.framework in Frameworks */,
+				80AFE48E188932600037353B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AFE4A8188932600037353B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFE4AD188932600037353B /* XCTest.framework in Frameworks */,
+				80AFE4AF188932600037353B /* UIKit.framework in Frameworks */,
+				80AFE4AE188932600037353B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AFE481188932600037353B = {
+			isa = PBXGroup;
+			children = (
+				80AFE493188932600037353B /* WangyiNews */,
+				80AFE4B2188932600037353B /* WangyiNewsTests */,
+				80AFE48C188932600037353B /* Frameworks */,
+				80AFE48B188932600037353B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AFE48B188932600037353B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AFE48A188932600037353B /* WangyiNews.app */,
+				80AFE4AB188932600037353B /* WangyiNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AFE48C188932600037353B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80AFE48D188932600037353B /* Foundation.framework */,
+				80AFE48F188932600037353B /* CoreGraphics.framework */,
+				80AFE491188932600037353B /* UIKit.framework */,
+				80AFE4AC188932600037353B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AFE493188932600037353B /* WangyiNews */ = {
+			isa = PBXGroup;
+			children = (
+				80AFE49C188932600037353B /* lbAppDelegate.h */,
+				80AFE49D188932600037353B /* lbAppDelegate.m */,
+				80AFE49F188932600037353B /* Main.storyboard */,
+				80AFE4A2188932600037353B /* lbViewController.h */,
+				80AFE4A3188932600037353B /* lbViewController.m */,
+				80AFE4A5188932600037353B /* Images.xcassets */,
+				80AFE494188932600037353B /* Supporting Files */,
+			);
+			path = WangyiNews;
+			sourceTree = "<group>";
+		};
+		80AFE494188932600037353B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AFE495188932600037353B /* WangyiNews-Info.plist */,
+				80AFE496188932600037353B /* InfoPlist.strings */,
+				80AFE499188932600037353B /* main.m */,
+				80AFE49B188932600037353B /* WangyiNews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AFE4B2188932600037353B /* WangyiNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AFE4B8188932600037353B /* WangyiNewsTests.m */,
+				80AFE4B3188932600037353B /* Supporting Files */,
+			);
+			path = WangyiNewsTests;
+			sourceTree = "<group>";
+		};
+		80AFE4B3188932600037353B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AFE4B4188932600037353B /* WangyiNewsTests-Info.plist */,
+				80AFE4B5188932600037353B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AFE489188932600037353B /* WangyiNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AFE4BC188932600037353B /* Build configuration list for PBXNativeTarget "WangyiNews" */;
+			buildPhases = (
+				80AFE486188932600037353B /* Sources */,
+				80AFE487188932600037353B /* Frameworks */,
+				80AFE488188932600037353B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WangyiNews;
+			productName = WangyiNews;
+			productReference = 80AFE48A188932600037353B /* WangyiNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80AFE4AA188932600037353B /* WangyiNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AFE4BF188932600037353B /* Build configuration list for PBXNativeTarget "WangyiNewsTests" */;
+			buildPhases = (
+				80AFE4A7188932600037353B /* Sources */,
+				80AFE4A8188932600037353B /* Frameworks */,
+				80AFE4A9188932600037353B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AFE4B1188932600037353B /* PBXTargetDependency */,
+			);
+			name = WangyiNewsTests;
+			productName = WangyiNewsTests;
+			productReference = 80AFE4AB188932600037353B /* WangyiNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AFE482188932600037353B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lb;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = lvpan;
+				TargetAttributes = {
+					80AFE4AA188932600037353B = {
+						TestTargetID = 80AFE489188932600037353B;
+					};
+				};
+			};
+			buildConfigurationList = 80AFE485188932600037353B /* Build configuration list for PBXProject "WangyiNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AFE481188932600037353B;
+			productRefGroup = 80AFE48B188932600037353B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AFE489188932600037353B /* WangyiNews */,
+				80AFE4AA188932600037353B /* WangyiNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AFE488188932600037353B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFE4A6188932600037353B /* Images.xcassets in Resources */,
+				80AFE498188932600037353B /* InfoPlist.strings in Resources */,
+				80AFE4A1188932600037353B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AFE4A9188932600037353B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFE4B7188932600037353B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AFE486188932600037353B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFE49E188932600037353B /* lbAppDelegate.m in Sources */,
+				80AFE4A4188932600037353B /* lbViewController.m in Sources */,
+				80AFE49A188932600037353B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AFE4A7188932600037353B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AFE4B9188932600037353B /* WangyiNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80AFE4B1188932600037353B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AFE489188932600037353B /* WangyiNews */;
+			targetProxy = 80AFE4B0188932600037353B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80AFE496188932600037353B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AFE497188932600037353B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80AFE49F188932600037353B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AFE4A0188932600037353B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AFE4B5188932600037353B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AFE4B6188932600037353B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AFE4BA188932600037353B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80AFE4BB188932600037353B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AFE4BD188932600037353B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WangyiNews/WangyiNews-Prefix.pch";
+				INFOPLIST_FILE = "WangyiNews/WangyiNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80AFE4BE188932600037353B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WangyiNews/WangyiNews-Prefix.pch";
+				INFOPLIST_FILE = "WangyiNews/WangyiNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		80AFE4C0188932600037353B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WangyiNews.app/WangyiNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WangyiNews/WangyiNews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WangyiNewsTests/WangyiNewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		80AFE4C1188932600037353B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WangyiNews.app/WangyiNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WangyiNews/WangyiNews-Prefix.pch";
+				INFOPLIST_FILE = "WangyiNewsTests/WangyiNewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AFE485188932600037353B /* Build configuration list for PBXProject "WangyiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AFE4BA188932600037353B /* Debug */,
+				80AFE4BB188932600037353B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AFE4BC188932600037353B /* Build configuration list for PBXNativeTarget "WangyiNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AFE4BD188932600037353B /* Debug */,
+				80AFE4BE188932600037353B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80AFE4BF188932600037353B /* Build configuration list for PBXNativeTarget "WangyiNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AFE4C0188932600037353B /* Debug */,
+				80AFE4C1188932600037353B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AFE482188932600037353B /* Project object */;
+}
